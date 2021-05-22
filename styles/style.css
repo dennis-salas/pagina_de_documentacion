@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: rgb(7, 7, 37);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar {
+    position: fixed;
+    min-width: 250px;
+    width: 250px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(95, 177, 177, 0.4);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    overflow-y: auto;
+}
+#navbar header{
+    position: fixed;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+}  
+#navbar ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin-top: 100px;
+}
+#navbar ul li{
+  margin-top:20px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom:15px ;
+   list-style: none;
+  border-bottom: 1px solid white;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 250px;
+    padding: 20px;
+    margin-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.main-section header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.main-section article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    line-height: 1.5;
+}
+.main-section article p{
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.main-section article h1{
+    margin-left: 50px;
+}
+.main-section article ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.5;
+    margin-left: 100px;
+}
+.main-section article ul li{
+    width: 100%;
+}  
+.main-section article div{
+    margin-left: 100px;
+}
+
+  
